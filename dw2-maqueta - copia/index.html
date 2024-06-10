@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Entrega esperada</title>
+</head>
+
+<body>
+    <header>
+        <img  class="logo-img" src="./img/logo-Rubik-izq.jpg" alt="Logo Cubers Shop">
+        <nav>
+            <ul class="menu">
+                <li class="itemMenu"><a href="#nosotros">Nosotros</a></li>
+                <li class="itemMenu"><a href="#contendorCards">Productos</a></li>
+                <li class="itemMenu"><a href="#carrito">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="nosotros" class="portada">
+            <h1>Mi web e-commerse</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero id asperiores, recusandae sed illum modi nisi necessitatibus unde quis excepturi accusamus</p>
+        </section>
+        <section id="contenedorCards" class="contenedorCards">
+            <div class="producto" data-price="6000">
+                <h3 class="card-titulo">2x2 GAN 249 V2</h3>
+                <p class="card-precio"><span>$</span>6000</p>
+                <img class="card-imagen"  src="./img/2x2Gan249V2.webp" alt="Imagen del cubo Rubik 2x2 Gan 249 V2">
+                <button class="agregar">Agregar al carrito</button>
+            </div>
+            <div class="producto" data-price="7000">
+                <h3 class="card-titulo">3x3 Valk Elite M</h3>
+                <p class="card-precio"><span>$</span>7000</p>
+                <img  class="card-imagen" src="./img/3x3ValkEliteM.webp" alt="Imagen del cubo Rubik 3x3 Valk Elite M">
+                <button class="agregar">Agregar al carrito</button>
+            </div>
+            <div class="producto" data-price="4000">
+                <h3 class="card-titulo">4x4 YJ MGC</h3>
+                <p class="card-precio"><span>$</span>4000</p>
+                <img  class="card-imagen"  src="./img/4x4YjMgc.webp" alt="Imagen del cubo Rubik 4x4 YJ MGC">
+                <button class="agregar">Agregar al carrito</button>
+            </div>
+            <div class="producto" data-price="1500">
+                <h3 class="card-titulo">Square-1 Yuxin Little Magic</h3>
+                <p class="card-precio"><span>$</span>1500</p>
+                <img  class="card-imagen" src="./img/sq1YuxinLittleMagic.webp" alt="Imagen del cubo Rubik Square-1 Yuxin Little Magic">
+                <button class="agregar">Agregar al carrito</button>
+            </div>
+        </section>
+        <section class="contenedorCarrito">
+            <div class="cart">
+                <h2>Carrito</h2>
+                <ul id="lista"></ul>
+                <div>
+                    <button class="clear-cart-btn">Vaciar Carrito</button>
+                </div>
+            </div>
+        </section>
+        <div class="total">
+            <p>Total: <span class="total-price"> $0</span>Ars</p>
+        </div>
+    </main>
+    <footer>
+        <img src="./img/logo-Rubik-izq.jpg" class="logo-img" alt="Logo Cubers Shop">
+        <div>
+            <a href=""><img src="https://dummyimage.com/50x50/c5c6c7/fff" alt=""></a>
+            <a href=""><img src="https://dummyimage.com/50x50/c5c6c7/fff" alt=""></a>
+            <a href=""><img src="https://dummyimage.com/50x50/c5c6c7/fff" alt=""></a>
+        </div>
+    </footer>
+    <script src="./app/main.js"></script>
+</body>
+</html>
